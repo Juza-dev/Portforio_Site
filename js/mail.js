@@ -7,6 +7,6 @@ form.addEventListener('submit', (e) => {
   const name = form_el.get('name')
   const phone = form_el.get('phone')
   const message = form_el.get('message')
-  const link = `j.46419@gmail.com?subject=${name} / ${email} / ${phone}&body=${message}`
+  const link = `mailto:j.46419@gmail.com?subject=${name} / ${email} / ${phone}&body=${message}`
   window.location.href = link
 })
